@@ -1,56 +1,36 @@
-// let name = "nimadir"; // string
+// const elTitle = document.getElementById("h2"); // ID orqali chaqirish usuli
+// const elTitle = document.getElementsByClassName("title"); //  class orqali chaqirish
 
-// let age = "20"; // number
+// const elTitle = document.getElementsByTagName("h1");// teg orqali chaqirish
 
-// let isStudents = falsee; // boolean
+// const elTitle = document.getElementsByTagName("h1"); // tag orqali  chaqirish  2
 
-// var isStudents; // underfind
+// const elTitle = document.querySelector("h1"); //  zamonaviy usul
 
-// let age = null; // null
+// elTitle.textContent = "Salom";
 
-// let name = "Feruz";
-// let age = 20;
+// elTitle.innerHTML = `
 
-// let result = `${name} ${age} yoshda`;
-// console.log(result);
-// let name = "nimadir";
-// let result = name + num2; // matematic usul
-// let result = num2 - num; // matematic ayirish
-// let result = num * num2;
-// let result = num2 / num; // mateamtic bolish
-// let result = num **16   matematic daraga
-// let result = num2 % num;  qoldiqli bolish
+// <div>
+// <h1>Xayr</h1>
+// </div>
 
-// let result = Math.round(num)
-// let num = 20;
-// let num2 = 61;
+// `;
 
-// console.log(result);
+// elTitle.style.display = "block";  // java scriptda stil berish
 
-// let name = prompt("iltimos ismingizni kiriting !!!");
-// let age = prompt("Iltimos yoshingizni kiriting !!!");
-// let num = Number(age);
-// let year = 2023 - num;
+// const elForm = document.querySelector("#forma");
+// const elInput = document.querySelector("#name");
+// const elInput2 = document.querySelector("#password");
 
-// alert(`${name} siz ${year} yilda tugulgan ekansiz  `);
+// elForm.addEventListener("click", function (e) {
 
-// let num = 20;
+// });
 
-// console.log(--num);
-// let result = Math.floor(num);
-// let result = Math.ceil(num);
 
-// let num = 4.4;
 
-// console.log(result);
 
-let name = prompt("ismingizni kiriting !!!");
-let score = prompt("olgan natijangizni kiritng !!");
 
-let ball = Number(score);
 
-if (ball > 80) {
-  alert("siz  qabul qilingiz");
-} else {
-  alert("qayta urin");
-}
+
+
